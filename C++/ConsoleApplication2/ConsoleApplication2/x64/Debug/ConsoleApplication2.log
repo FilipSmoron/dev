@@ -1,0 +1,28 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(13,20): error C2131: wyrażenie nie zostało obliczone do stałej
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(13,22): message : przyczyną niepowodzenia był odczyt zmiennej poza jej okresem istnienia
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(13,22): message : zobacz użycie elementu „n”
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(14,20): error C2131: wyrażenie nie zostało obliczone do stałej
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(14,22): message : przyczyną niepowodzenia był odczyt zmiennej poza jej okresem istnienia
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(14,22): message : zobacz użycie elementu „n”
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(15,22): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(17,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(21,21): error C3863: nie można przydzielać typu tablicy „int [2*n]”
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(22,21): error C3863: nie można przydzielać typu tablicy „int [2*n]”
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(26,51): warning C4552: „<<”: Wynik wyrażenia nie jest używany
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(27,67): warning C4552: „<<”: Wynik wyrażenia nie jest używany
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(34,22): error C2109: indeks dolny wymaga tablicy lub wskaźnika typu
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(34,73): error C2668: "pow": niejednoznaczne wywołanie przeciążonej funkcji
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cmath(486,46): message : może to być „long double pow(long double,long double) noexcept”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cmath(222,40): message : lub       "float pow(float,float) noexcept"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(480,35): message : lub       "double pow(double,double)"
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(34,73): message : podczas próby dopasowania listy argumentów "(int [2*n], int)"
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(34,119): error C2668: "pow": niejednoznaczne wywołanie przeciążonej funkcji
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cmath(486,46): message : może to być „long double pow(long double,long double) noexcept”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cmath(222,40): message : lub       "float pow(float,float) noexcept"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(480,35): message : lub       "double pow(double,double)"
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(34,119): message : podczas próby dopasowania listy argumentów "(int [2*n], int)"
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(38,16): error C2109: indeks dolny wymaga tablicy lub wskaźnika typu
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(40,39): error C2109: indeks dolny wymaga tablicy lub wskaźnika typu
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(44,35): error C2109: indeks dolny wymaga tablicy lub wskaźnika typu
+C:\Users\a\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(53,58): error C2109: indeks dolny wymaga tablicy lub wskaźnika typu

@@ -1,0 +1,5 @@
+﻿Źródło.obj : error LNK2005: Element "public: __cdecl TestManager::TestManager(void)" (??0TestManager@@QEAA@XZ) jest już zdefiniowany w elemencie projekt_rozwiazywanie_testow.obj
+Źródło.obj : error LNK2005: Element "public: void __cdecl TestManager::displayTests(void)" (?displayTests@TestManager@@QEAAXXZ) jest już zdefiniowany w elemencie projekt_rozwiazywanie_testow.obj
+Źródło.obj : error LNK2005: Element "public: int __cdecl TestManager::getTestChoice(void)" (?getTestChoice@TestManager@@QEAAHXZ) jest już zdefiniowany w elemencie projekt_rozwiazywanie_testow.obj
+Źródło.obj : error LNK2005: Element "public: void __cdecl TestManager::runTest(int)" (?runTest@TestManager@@QEAAXH@Z) jest już zdefiniowany w elemencie projekt_rozwiazywanie_testow.obj
+C:\Users\a\source\repos\projekt_rozwiazywanie_testow\x64\Debug\projekt_rozwiazywanie_testow.exe : fatal error LNK1169: znaleziono co najmniej jeden wielokrotnie zdefiniowany symbol

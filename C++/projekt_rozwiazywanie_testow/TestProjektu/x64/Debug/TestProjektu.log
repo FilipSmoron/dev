@@ -1,0 +1,2 @@
+﻿  test.cpp
+C:\Users\a\source\repos\projekt_rozwiazywanie_testow\TestProjektu\test.cpp(57,1): fatal  error C1010: Nieoczekiwany koniec pliku podczas wyszukiwania prekompilowanego pliku nagłówkowego. Czy zapomniano dodać „#include "pch.h"” do źródła?

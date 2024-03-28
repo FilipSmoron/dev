@@ -1,0 +1,3 @@
+﻿  losowanielotto.cpp
+C:\Users\a\source\repos\losowanielotto\losowanielotto\losowanielotto.cpp(13,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  losowanielotto.vcxproj -> C:\Users\a\source\repos\losowanielotto\x64\Debug\losowanielotto.exe

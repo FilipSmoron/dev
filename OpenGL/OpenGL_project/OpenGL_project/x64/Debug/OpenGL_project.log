@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\a\source\repos\OpenGL_project\OpenGL_project\main.cpp(2,9): fatal  error C1083: Nie można otworzyć pliku dołącz: 'glad/glad.h': No such file or directory
+  OpenGL_project.cpp
+  Generowanie kodu...
