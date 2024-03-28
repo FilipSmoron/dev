@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1680563769 source:c:\users\a\desktop\c++\obiektowe3\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<windows.h>
+
