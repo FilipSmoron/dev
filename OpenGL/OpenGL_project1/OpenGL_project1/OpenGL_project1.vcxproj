@@ -112,7 +112,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\a\Desktop\Grafika Komputerowa\include;C:\Users\a\Desktop\Grafika Komputerowa\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\a\Desktop\Grafika Komputerowa\include;C:\Users\a\Desktop\Grafika Komputerowa\glm;C:\Users\a\Desktop\Grafika Komputerowa\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,7 +129,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\a\Desktop\Grafika Komputerowa\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\a\Desktop\Grafika Komputerowa\include;C:\Users\a\Desktop\Grafika Komputerowa\glm;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
