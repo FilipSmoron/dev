@@ -1,43 +1,23 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
 
 public class UserView extends JFrame {
-    private final ShelterManager shelterManager; // Dodajemy pole do przechowywania instancji ShelterManager
+    private final ShelterManager shelterManager; // Przechowuje instancję ShelterManager
+    private JTextArea shelterInfoTextArea;      // Obszar tekstowy do wyświetlania schronisk i zwierząt
 
     public UserView(ShelterManager shelterManager) {
         this.shelterManager = shelterManager; // Przypisanie instancji ShelterManager
         setTitle("User Panel");
-        setSize(500, 400);
+        setSize(700, 500);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        JPanel panel = new JPanel();
-        JButton viewAnimalsButton = new JButton("View Animals");
+        JPanel panel = new JPanel(new BorderLayout());
+        JPanel buttonPanel = new JPanel();
+
         JButton adoptButton = new JButton("Adopt Animal");
-
-        // Akcja dla przycisku "View Animals"
-        viewAnimalsButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String shelterName = JOptionPane.showInputDialog("Enter shelter name to view animals:");
-                AnimalShelter shelter = shelterManager.getShelters().get(shelterName);
-
-                if (shelter == null) {
-                    JOptionPane.showMessageDialog(null, "Shelter not found.");
-                    return;
-                }
-
-                List<Animal> animals = shelter.sortByName(); // Sortowanie zwierząt po nazwie
-                StringBuilder animalsList = new StringBuilder("Animals in " + shelterName + ":\n");
-
-                for (Animal animal : animals) {
-                    animalsList.append(animal.toString()).append("\n");
-                }
-
-                JOptionPane.showMessageDialog(null, animalsList.toString());
-            }
-        });
 
         // Akcja dla przycisku "Adopt Animal"
         adoptButton.addActionListener(new ActionListener() {
@@ -61,11 +41,46 @@ public class UserView extends JFrame {
 
                 shelter.adoptAnimal(animalToAdopt); // Poprawne wywołanie metody adopcji
                 JOptionPane.showMessageDialog(null, animalToAdopt.getName() + " has been adopted.");
+
+                // Po adopcji aktualizujemy widok
+                displaySheltersAndAnimals();
             }
         });
 
-        panel.add(viewAnimalsButton);
-        panel.add(adoptButton);
+        // Obszar tekstowy do wyświetlania schronisk i ich zwierząt
+        shelterInfoTextArea = new JTextArea(15, 50);
+        shelterInfoTextArea.setEditable(false);
+
+        // Inicjalne wyświetlenie schronisk i zwierząt
+        displaySheltersAndAnimals();
+
+        // Panel przycisków
+        buttonPanel.add(adoptButton);
+
+        // Główna struktura panelu
+        panel.add(buttonPanel, BorderLayout.NORTH);
+        panel.add(new JScrollPane(shelterInfoTextArea), BorderLayout.CENTER);
+
         add(panel);
+    }
+
+    // Metoda wyświetlająca listę schronisk i ich zwierząt
+    private void displaySheltersAndAnimals() {
+        StringBuilder shelterInfo = new StringBuilder();
+
+        for (String shelterName : shelterManager.getShelters().keySet()) {
+            AnimalShelter shelter = shelterManager.getShelters().get(shelterName);
+            shelterInfo.append("Shelter: ").append(shelterName)
+                    .append(" (Capacity: ").append(shelter.getAnimals().size())
+                    .append("/").append(shelter.getMaxCapacity()).append(")\n");
+
+            for (Animal animal : shelter.getAnimals()) {
+                shelterInfo.append("  - ").append(animal.toString()).append("\n");
+            }
+
+            shelterInfo.append("\n"); // Dodatkowy odstęp między schroniskami
+        }
+
+        shelterInfoTextArea.setText(shelterInfo.toString());
     }
 }

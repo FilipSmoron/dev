@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: nierozpoznany symbol zewnętrzny "class solution __cdecl sym_NM(class matrix (__cdecl*)(class matrix,class matrix,class matrix),class matrix,double,double,double,double,double,double,int,class matrix,class matrix)" (?sym_NM@@YA?AVsolution@@P6A?AVmatrix@@V2@00@Z0NNNNNNH00@Z) przywołany w funkcji "void __cdecl lab3(void)" (?lab3@@YAXXZ)
+    Wskazówki dla symboli, które są zdefiniowane i mogą potencjalnie pasować:
+      "class solution __cdecl sym_NM(class matrix (__cdecl*)(class matrix,class matrix,class matrix),class matrix,long double,long double,long double,long double,long double,long double,int,class matrix,class matrix)" (?sym_NM@@YA?AVsolution@@P6A?AVmatrix@@V2@00@Z0OOOOOOH00@Z)
+C:\Users\a\dev\C++\Optymalizacja\laby\laby\x64\Debug\laby.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1

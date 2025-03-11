@@ -1,0 +1,120 @@
+Step 0/20
+Temperatures at step 0:
+Min temperature: 100.000000000271925
+Max temperature: 149.556951808116366
+
+
+Step 1/20
+Temperatures at step 1:
+Min temperature: 100.000000005291099
+Max temperature: 177.444927950068717
+
+
+Step 2/20
+Temperatures at step 2:
+Min temperature: 100.000000051460631
+Max temperature: 197.266962921700127
+
+
+Step 3/20
+Temperatures at step 3:
+Min temperature: 100.000000334419454
+Max temperature: 213.152787291531524
+
+
+Step 4/20
+Temperatures at step 4:
+Min temperature: 100.000001638240633
+Max temperature: 226.682583419075740
+
+
+Step 5/20
+Temperatures at step 5:
+Min temperature: 100.000006471203704
+Max temperature: 238.607064805880697
+
+
+Step 6/20
+Temperatures at step 6:
+Min temperature: 100.000021529365100
+Max temperature: 249.346691942499177
+
+
+Step 7/20
+Temperatures at step 7:
+Min temperature: 100.000062212740957
+Max temperature: 259.165079155130343
+
+
+Step 8/20
+Temperatures at step 8:
+Min temperature: 100.000159783387616
+Max temperature: 268.240689005014360
+
+
+Step 9/20
+Temperatures at step 9:
+Min temperature: 100.000371344919543
+Max temperature: 276.701097863319205
+
+
+Step 10/20
+Temperatures at step 10:
+Min temperature: 100.000792235506665
+Max temperature: 284.641283188667046
+
+
+Step 11/20
+Temperatures at step 11:
+Min temperature: 100.001569846101418
+Max temperature: 292.134219050895467
+
+
+Step 12/20
+Temperatures at step 12:
+Min temperature: 100.002917483838331
+Max temperature: 299.237409945306354
+
+
+Step 13/20
+Temperatures at step 13:
+Min temperature: 100.005126797528476
+Max temperature: 305.997121527523007
+
+
+Step 14/20
+Temperatures at step 14:
+Min temperature: 100.008577463627603
+Max temperature: 312.451230213530209
+
+
+Step 15/20
+Temperatures at step 15:
+Min temperature: 100.013743214232335
+Max temperature: 318.631206136437754
+
+
+Step 16/20
+Temperatures at step 16:
+Min temperature: 100.021193759708709
+Max temperature: 324.563531489943387
+
+
+Step 17/20
+Temperatures at step 17:
+Min temperature: 100.031592614067989
+Max temperature: 330.270739173373556
+
+
+Step 18/20
+Temperatures at step 18:
+Min temperature: 100.045691200978169
+Max temperature: 335.772189047979452
+
+
+Step 19/20
+Temperatures at step 19:
+Min temperature: 100.064319869903969
+Max temperature: 341.084658534321193
+
+
