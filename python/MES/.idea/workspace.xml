@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a323fe4-1125-446a-b241-2902aa27fa98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../java/AnimalShelterLab4/AnimalShelterLab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Lab_5/src/main/java/com/example/shelter/service/ShelterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/animal-shelter-api/src/main/java/com/example/animalshelterapi/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/animal-shelter-api/src/main/java/com/example/animalshelterapi/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/animal-shelter-api/src/main/java/com/example/animalshelterapi/AnimalShelterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/animal-shelter-api/src/main/java/com/example/animalshelterapi/ShelterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/animal-shelter-api/src/main/java/com/example/animalshelterapi/ShelterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/animal-shelter-api/src/main/java/com/example/animalshelterapi/ShelterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/animal-shelter-api/src/test/java/com/example/animalshelterapi/AnimalShelterControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/CsvUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/SerializationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/controller/AnimalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/controller/RatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/controller/ShelterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/dao/AnimalDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/dao/AnimalShelterDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/dao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/dao/RatingDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/model/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/model/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/model/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/ui/AdminView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/java/com/example/ui/UserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/shelterDB/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/1_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/1_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/1_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/2_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/2_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/2_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/3_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/3_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/3_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test1_2pkt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test1_3pkt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test1_4pkt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test2_2pkt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test2_3pkt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test2_4pkt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test3_2pkt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test3_2pkt_temperatury.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test3_3pkt_temperatury.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mes_skrypt_pomocniczy/wynik_test3_4pkt_temperatury.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/TestProjekt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/TestProjekt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8f79727c6b961ec13675.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9bbf13494bc067a22418.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1faf21c5d9a0eca3c891.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-20T10-01-48-0055.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/CMakeFiles/untitled17.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/bst loty/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/.vs/losowanielotto/FileContentIndex/4de5a320-3120-46aa-89f8-25895b42bea7.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/.vs/losowanielotto/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/.vs/losowanielotto/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/.vs/losowanielotto/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/.vs/losowanielotto/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/losowanielotto.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/losowanielotto.tlog/losowanielotto.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/losowanielotto/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/x64/Debug/losowanielotto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/x64/Debug/losowanielotto.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/losowanielotto/x64/Debug/losowanielotto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/losowanielotto/x64/Debug/losowanielotto.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/projekt_rozwiazywanie_testow/.vs/projekt_rozwiazywanie_testow/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/projekt_rozwiazywanie_testow/.vs/projekt_rozwiazywanie_testow/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/projekt_rozwiazywanie_testow/.vs/projekt_rozwiazywanie_testow/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/projekt_rozwiazywanie_testow/.vs/projekt_rozwiazywanie_testow/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/projekt_rozwiazywanie_testow/.vs/projekt_rozwiazywanie_testow/v17/Solution.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/projekt_rozwiazywanie_testow/.vs/projekt_rozwiazywanie_testow/v17/Solution.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.cmake/api/v1/reply/cache-v2-35d77e2a3d83b903cc97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-b7ddfc024b07b6787784.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ed267bcbeb77b387969a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-12T16-23-14-0696.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/CMakeFiles/untitled20.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/untitled20/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/Animal_Shelter/src/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/Animal_Shelter/src/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/src/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/src/Figure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/src/Printable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/src/Pyramid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/src/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/lab1/src/Triangle.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2nX4k04X3SxXaiz6CkKQa2hGDJz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <output_file path="$PROJECT_DIR$/konsola.txt" is_save="true" />
+      <module name="MES" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a323fe4-1125-446a-b241-2902aa27fa98" name="Changes" comment="" />
+      <created>1729106226084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729106226084</updated>
+      <workItem from="1729106239321" duration="3264000" />
+      <workItem from="1729229754393" duration="5972000" />
+      <workItem from="1729611110552" duration="96000" />
+      <workItem from="1729835451153" duration="8790000" />
+      <workItem from="1730356961382" duration="6274000" />
+      <workItem from="1730986084468" duration="20744000" />
+      <workItem from="1731653855595" duration="6545000" />
+      <workItem from="1732258321015" duration="4745000" />
+      <workItem from="1732264843052" duration="88000" />
+      <workItem from="1732721086590" duration="561000" />
+      <workItem from="1732789568879" duration="1207000" />
+      <workItem from="1733433252702" duration="4473000" />
+      <workItem from="1733468327788" duration="10454000" />
+      <workItem from="1733935432457" duration="4402000" />
+      <workItem from="1733952216850" duration="672000" />
+      <workItem from="1733953299212" duration="3324000" />
+      <workItem from="1734016963441" duration="1431000" />
+      <workItem from="1734022133342" duration="48000" />
+      <workItem from="1734037425028" duration="2120000" />
+      <workItem from="1734072129323" duration="5849000" />
+      <workItem from="1734653927558" duration="7241000" />
+      <workItem from="1734685035346" duration="33000" />
+      <workItem from="1736368857487" duration="4420000" />
+      <workItem from="1736441222653" duration="19893000" />
+      <workItem from="1736490765115" duration="6256000" />
+      <workItem from="1736870283460" duration="1687000" />
+      <workItem from="1736954837178" duration="1820000" />
+      <workItem from="1741679141943" duration="69000" />
+      <workItem from="1741679242512" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
